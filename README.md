@@ -1,27 +1,16 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Prueba Técnica Frontend Para Double V Partners
+En el proyecto, tu puedes: 
 
-Currently, two official plugins are available:
+1. Clonar el repositorio   
+2. Ejecutar el comando npm install
+3. Ejecutar el comando npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Descripción
+Implementación de la API de usuarios de GitHub, permitiendo brindar información detallada sobre los perfiles de los usuarios y presentarla de manera atractiva mediante un diagrama de barras que muestra los seguidores de cada usuario.
 
-## Expanding the ESLint configuration
+La arquitectura del frontend ha sido diseñada bajo el enfoque de la arquitectura hexagonal, incorporando inyección de dependencias, los principios SOLID y el patrón REDUX. 
+Entregando un código limpio y altamente eficiente, manteniendo un grado total de desacoplamiento y flexibilidad, siguiendo las mejores prácticas de la industria y haciendo mucho más fácl la mantenibilidad del código.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre las tecnologías utilizadas, ReactJS para la construcción de una interfaz dinámica e intuitiva, Bootstrap para un diseño moderno y responsive, y Apollo Client para una integración fluida con la API. 
+Además, implemente Redux para una gestión eficaz del estado de la aplicación y ChartJS para ofrecer visualizacion de gráficos.
