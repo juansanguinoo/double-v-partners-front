@@ -7,7 +7,7 @@ En el proyecto, tu puedes:
 3. Ejecutar el comando npm run dev
 
 # Descripción
-Implementación de la API de usuarios de GitHub, permitiendo brindar información detallada sobre los perfiles de los usuarios y presentarla de manera atractiva mediante un diagrama de barras que muestra los seguidores de cada usuario.
+Implementación de la API de usuarios de GitHub, permitiendo brindar información detallada sobre los perfiles de los usuarios y presentarla de manera atractiva mediante un diagrama de barras que muestra los seguidores de cada usuario, agregar usuarios a la base de datos y mostrar la lista de todos los usuarios agregados.
 
 La arquitectura del frontend ha sido diseñada bajo el enfoque de la arquitectura hexagonal, incorporando inyección de dependencias, los principios SOLID y el patrón REDUX. 
 Entregando un código limpio y altamente eficiente, , siguiendo las mejores prácticas de la industria y haciendo mucho más fácl la mantenibilidad del código.
