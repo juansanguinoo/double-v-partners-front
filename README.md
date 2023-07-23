@@ -9,8 +9,8 @@ En el proyecto, tu puedes:
 # Descripción
 Implementación de la API de usuarios de GitHub, permitiendo brindar información detallada sobre los perfiles de los usuarios y presentarla de manera atractiva mediante un diagrama de barras que muestra los seguidores de cada usuario, agregar usuarios a la base de datos y mostrar la lista de todos los usuarios agregados.
 
-La arquitectura del frontend ha sido diseñada bajo el enfoque de la arquitectura hexagonal, incorporando inyección de dependencias, los principios SOLID y el patrón REDUX. 
-Entregando un código limpio y altamente eficiente, , siguiendo las mejores prácticas de la industria y haciendo mucho más fácl la mantenibilidad del código.
+La arquitectura del frontend ha sido diseñada bajo el enfoque de la arquitectura hexagonal, incorporando inyección de dependencias, los principios SOLID, el patrón Repository y patrón REDUX. 
+Entregando un código limpio y altamente eficiente, siguiendo las mejores prácticas de la industria y haciendo mucho más fácl la mantenibilidad del código.
 
 Para lograr una arquitectura limpia y bien estructurada, me he basado en los principios de Clean Architecture, separando claramente las capas de negocios, aplicación e infraestructura. Esta separación de preocupaciones mantiene la lógica de negocio independiente de los detalles técnicos, lo que facilita las pruebas unitarias y mejora la escalabilidad y mantenibilidad del código manteniendo un grado total de desacoplamiento.
 
