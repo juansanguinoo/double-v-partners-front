@@ -65,11 +65,23 @@ const UserModel = () => {
     updatedAt: userByLoginData?.updatedAt,
   };
 
-  const handleClick = () => {
-    createUser({
-      variables: variables,
-    });
-    Swal.fire("Good job!", "User created successfully!", "success");
+  const handleRefreshPage = () => {
+    window.location.reload();
+  };
+
+  const handleClick = async () => {
+    try {
+      await createUser({
+        variables: variables,
+      });
+
+      Swal.fire("Good job!", "User created successfully!", "success").then(() =>
+        handleRefreshPage()
+      );
+    } catch (error) {
+      console.error(error);
+      Swal.fire("Oops!", "An error occurred while creating the user.", "error");
+    }
   };
 
   return { userByLoginData, loadingUsers, errorUsers, variables, handleClick };

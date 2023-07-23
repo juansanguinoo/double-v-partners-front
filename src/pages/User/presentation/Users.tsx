@@ -3,6 +3,12 @@ import Loading from "../../components/Loading";
 import Error from "../../components/Error";
 import { Link } from "react-router-dom";
 
+interface User {
+  id: string;
+  login: string;
+  company: string;
+}
+
 const Users = () => {
   const { loading, error, data } = UsersModel();
 
@@ -19,11 +25,12 @@ const Users = () => {
   return (
     <div className="container-lg">
       <div className="row">
-        {data.getAllUsers.map((user: any) => (
+        {data.getAllUsers.map((user: User) => (
           <div className="col-sm-12 col-md-6 col-lg-4" key={user.id}>
             <div className="card m-3 mt-5" style={{ width: "18rem" }}>
               <div className="card-body">
                 <h5 className="card-title">{user.login}</h5>
+                <p>{user.id}</p>
                 <p>{user.company ? user.company : "No company"}</p>
               </div>
               <button type="button" className="btn btn-primary btn-card mb-2">

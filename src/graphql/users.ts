@@ -82,8 +82,6 @@ export const GET_USERS = gql`
     getAllUsers {
       id
       login
-      htmlURL
-      avatarURL
       company
     }
   }
